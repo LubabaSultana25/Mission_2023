@@ -1,0 +1,145 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+
+/* p {
+    text-align: justify;
+    padding: 3px;
+} */
+
+.container-flex {
+    display: flex;
+
+}
+
+.half-width {
+    width: 40%;
+    margin: 2%;
+    margin-left: 10%;
+}
+
+.half-width img {
+    width: 60%;
+}
+
+.headding {
+    border-left: 20px;
+    border-image-slice: 1;
+    border-image: tomato;
+}
+
+.focus {
+    font-family: 'Amarante', cursive;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.blue_color {
+    color: rgba(0, 68, 255, 0.538);
+}
+
+
+
+.button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-color: rgba(0, 0, 255, 0.538);
+    border-radius: 5px;
+}
+
+.mission_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.mission_card {
+    align-items: center;
+    width: 80%;
+    margin: 8%;
+    display: flex;
+}
+
+.card {
+    margin: 5%;
+    padding: 2%;
+    box-shadow: 5px 5px 20px rgb(194, 194, 194)
+}
+
+.card1 {
+
+    background-color: lightblue;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.card2 {
+    background-color: moccasin;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.card3 {
+    background-color: aliceblue;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.mission_card img {
+    width: 50%;
+}
+
+.develop {
+    background-image: url(../images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left !important;
+    margin: 12%;
+    text-align: justify;
+}
+
+.develop_division img {
+    width: 60%;
+
+}
+
+.develop_division {
+    width: 40%;
+    margin: 10px;
+
+
+
+}
+
+
+
+.heading {
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.Project {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.178);
+    height: 300px;
+}
+
+.Project img {
+    width: 100px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    height: 100px;
+    margin-top: 5px;
+    padding-top: 0px;
+
+}
